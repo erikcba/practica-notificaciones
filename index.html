@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+  
+</head>
+<body>
+
+  <main class="contenedor-notificaciones">
+
+    <div class="notificaciones-encabezado">
+
+      <div class="notificaciones">
+        <h2>Notifications</h2>
+        <span id="numerito-notificaciones"></span>
+      </div>
+
+      
+
+      <button id="boton-leido">Mark all as read</button>
+
+    </div>
+
+    <div class="notificaciones-preview no-leido">
+
+      <img src="./assets/images/avatar-mark-webber.webp" alt="">
+
+      <div class="notificaciones-texto">
+
+        <div class="notificacion-informacion">
+
+          <div class="notificacion-texto">
+            
+            <div class="info-notificacion">
+              <p id="texto-notificacion"><span id="usuario-nombre">Mark Webber</span>  reacted to your recent post <span id="publicacion">My first tournament today!</span> <div id="circulito"></div></p>
+            </div>
+
+            <div id="tiempo-notificacion">
+              <p>1m ago</p>
+            </div>
+            
+          </div> 
+          
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="notificaciones-preview no-leido">
+
+      <img src="./assets/images/avatar-angela-gray.webp" alt="">
+
+      <div class="notificaciones-texto">
+
+        <div class="notificacion-informacion">
+          <div class="notificacion-texto">
+
+            <div class="info-notificacion">
+              <p id="texto-notificacion"><span id="usuario-nombre">Angela Gray</span>  followed you <span id="publicacion">My first tournament today!</span> <div id="circulito"></div></p>
+            </div>
+
+            <div id="tiempo-notificacion">
+              <p>5m ago</p>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+        
+
+      </div>
+      
+
+    </div>
+
+    <div class="notificaciones-preview no-leido">
+
+      <img src="./assets/images/avatar-jacob-thompson.webp" alt="">
+
+      <div class="notificaciones-texto">
+
+        <div class="notificacion-informacion">
+
+          <div class="notificacion-texto">
+
+            <div class="info-notificacion">
+              
+              <p id="texto-notificacion"><span id="usuario-nombre">Jacob Thompson</span>  has joined your group <span id="publicacion">Chess club</span> <div id="circulito"></div></p>
+
+            </div>
+
+            <div id="tiempo-notificacion">
+              <p>1 week ago</p>
+            </div>
+            
+          </div>
+         
+        </div>
+        
+        
+
+      </div>
+      
+
+    </div>
+
+    
+
+    <div class="notificaciones-preview leido">
+
+      <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="">
+
+      <div class="notificaciones-texto">
+
+        <div class="notificacion-informacion">
+
+          <div class="notificacion-texto">
+
+            <div class="info-notificacion">
+              <p id="texto-notificacion"><span id="usuario-nombre">Rizky Hasanuddin</span>  sent you a private message</p>
+            </div>
+
+            <div id="tiempo-notificacion">
+              <p>1 week ago</p>
+            </div>
+            
+          </div>
+
+        </div>
+        
+        <p class="mensaje-en-notificacion">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and i'm already having lots of fun and improving my game.</p>
+
+      </div>
+      
+
+    </div>
+
+    <div class="notificaciones-preview leido">
+
+      <img src="./assets/images/avatar-kimberly-smith.webp" alt="">
+
+      <div class="notificaciones-texto">
+
+        <div class="notificacion-informacion">
+          
+          <div class="notificacion-texto">
+
+            <div class="info-notificacion">
+              <p id="texto-notificacion"><span id="usuario-nombre">Kimberly Smith</span>  commented on your picture</p>
+            </div>
+            
+            <div id="tiempo-notificacion">
+              <p>1 week ago</p>
+            </div>
+            
+          </div>
+
+          <div class="imagen-notificacion">
+            <img class="img-notificacion" src="./assets/images/image-chess.webp" alt="">
+          </div>
+            
+          
+        </div>
+        
+        
+      </div>
+      
+
+    </div>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
